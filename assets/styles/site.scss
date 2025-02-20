@@ -1,0 +1,76 @@
+---
+---
+
+header p { display: none; }
+
+h2 {
+  border-color: rgba(0,0,0,0.1);
+  border-style: double;
+  border-width: 3px 0px 3px 0px;
+  padding: 0.5em 0 0.3em 0;
+  clear: both;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+figure {
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+figure img {
+  border: solid 1px rgba(0,0,0,0.05);
+}
+
+figcaption {
+  margin-top: 0.3rem;
+  text-align: center;
+}
+
+video {
+  border: solid 1px rgba(0,0,0,0.05);
+}
+
+img[src="/assets/images/johnny%205%20by%20ramenandsuch.png"],
+img[src="/assets/images/avatar%201024.png"] {
+  display: block;
+  max-width: 40%;
+  margin-right: 0.8em;
+  text-align: center;
+  float: left;
+}
+
+section:first-of-type p:nth-of-type(3) em,
+section:first-of-type p:nth-of-type(4) {
+  font-size: 1.3em;
+}
+
+.user-mention {
+  color: #6a9fb5;
+}
+
+#jonathan-j5-cook {
+
+}
+
+#introduction {
+
+}
+
+#header-links {
+  display: flex;
+  flex-basis: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+#header-links a {
+}
+
+#banner #logo, #banner .button.fork {
+  display: none !important;
+}
