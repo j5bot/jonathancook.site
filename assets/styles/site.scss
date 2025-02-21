@@ -1,6 +1,11 @@
 ---
 ---
 
+body {
+  background-image: none;
+  background-color: lightgray;
+}
+
 header p { display: none; }
 
 h2 {
@@ -48,7 +53,7 @@ section:first-of-type p:nth-of-type(4) {
 }
 
 .user-mention {
-  color: #6a9fb5;
+  color: lightblue;
 }
 
 #jonathan-j5-cook {
@@ -69,6 +74,11 @@ section:first-of-type p:nth-of-type(4) {
   padding: 1em;
 }
 #header-links a {
+}
+
+#banner {
+  background-color: lightblue;
+  border: 1px solid lightskyblue;
 }
 
 #banner #logo, #banner .button.fork {
