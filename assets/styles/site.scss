@@ -2,8 +2,13 @@
 ---
 
 body {
-  background-image: none;
-  background-color: lightgray;
+  background: repeating-linear-gradient(
+                to right,
+                lightgray,
+                lightgray 1px,
+                #dedede 6px,
+                #dedede 6px
+              );
 }
 
 header p { display: none; }
